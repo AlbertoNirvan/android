@@ -101,3 +101,4 @@ val shouldSuppressWarnings by extra(
 if (!shouldUsePrebuiltSdk() || isServerBuild()) {
     apply(from = "${project.rootDir}/tools/prebuilt-sdk.gradle")
 }
+buildSrc/src/main/kotlin/mega/privacy/android/build/Util.kt
