@@ -89,7 +89,7 @@ Default macOS path:  `export JAVA_HOME="/Applications/Android Studio.app/Content
 
 ### 7. Prerequisites of running the build script
 
-#### 7.1 Linux
+#### 7.1 
 
 Before running the SDK building script, install the required packages. For example for Ubuntu or other Debian-based distro:
 
