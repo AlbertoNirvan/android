@@ -40,10 +40,7 @@ def getEnvironmentVariable = { param ->
         return "N/A"
     } else {
         return value
-    }
-}
-
-def SDK_COMMIT = getEnvironmentVariable("SDK_COMMIT")
+    }def SDK_COMMIT = getEnvironmentVariable("SDK_COMMIT")
 def CHAT_COMMIT = getEnvironmentVariable("CHAT_COMMIT")
 def SDK_BUILDER_NAME = getEnvironmentVariable("gitlabUserName")
 def SDK_BRANCH = getEnvironmentVariable("SDK_BRANCH")
